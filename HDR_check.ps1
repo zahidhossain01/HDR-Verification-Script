@@ -1,3 +1,6 @@
+# Script modeled after:
+# https://video.stackexchange.com/questions/22059/how-to-identify-hdr-video?newreg=b440570910994b4189e61beed6f5a4ac
+
 Set-Location -Path $PSScriptRoot -PassThru
 $SourceVideosFolder = ".\source_videos"
 $Videos = Get-ChildItem $SourceVideosFolder
